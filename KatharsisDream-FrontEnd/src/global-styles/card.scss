@@ -1,0 +1,72 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+.card-header{
+    padding: 5px;
+    background-color: black;
+    border: 1px solid white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-content{
+    padding: 5px;
+    color: black;
+    background-color: rgb(253, 253, 253);
+}
+
+.card-footer{
+    padding: 5px;
+    border: 1px solid white;
+}
+
+.card-100{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+
+.card-200{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.card-300{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.card-400{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.card-500{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.card-600{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.card-700{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+.card-800{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
