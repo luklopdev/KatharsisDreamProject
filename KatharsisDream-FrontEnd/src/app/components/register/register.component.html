@@ -1,6 +1,6 @@
 <div class="full-screen">
     <div class="center">
-        <form>
+        <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
             <div class="card">
                 <div class="card-header">
                     <div class="form-header">
@@ -9,20 +9,20 @@
                 </div>
                 <div class="card-content">
                     <div class="form-control col-12">
-                        <label class="col-5" for="email">E-mail</label>
-                        <input class="col-6 form-input" id="email" type="email">
+                        <label class="col-6" for="email">E-mail</label>
+                        <input class="col-5 form-input" id="email" type="email" formControlName="email">
                     </div>
                     <div class="form-control col-12">
-                        <label class="col-5" for="password">Password</label>
-                        <input class="col-6 form-input" id="password" type="password">
+                        <label class="col-6" for="password">Password</label>
+                        <input class="col-5 form-input" id="password" type="password" formControlName="password">
                     </div>
                     <div class="form-control col-12">
-                        <label class="col-5" for="cPassword">Confirm password</label>
-                        <input class="col-6 form-input" id="cPassword" type="password">
+                        <label class="col-6" for="cPassword">Confirm password</label>
+                        <input class="col-5 form-input" id="cPassword" type="password" formControlName="confirmPassword">
                     </div>
                     <div class="form-control col-12">
-                        <div class="col-5"></div>
-                        <input class="col-6 form-submit" value="Register" type="submit">
+                        <div class="col-6"></div>
+                        <input class="col-5 form-submit" value="Register" type="submit" [disabled]="!registerForm.valid">
                     </div>
                 </div>
                 <div class="card-footer">
