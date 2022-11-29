@@ -1,0 +1,41 @@
+form{
+    .form-header{
+        margin: 5px;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .form-control{
+        margin: 5px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .form-footer{
+        margin: 5px;
+        text-align: center;
+    }
+
+    .form-input{
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px gray solid;
+    }
+
+    .form-submit{
+        margin: 0;
+        cursor: pointer;
+        border: 1px white solid;
+        border-radius: 5px;
+        padding: 5px;
+        background-color: black;
+        color: wheat;
+        transition: 1s;
+        &:hover{
+            border: 1px black solid;
+            background-color: white;
+            color: black;
+            transition: 1s;
+        }
+    }
+}
