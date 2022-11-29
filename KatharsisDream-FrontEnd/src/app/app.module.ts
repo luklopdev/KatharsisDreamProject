@@ -17,7 +17,9 @@ import { RegisterService } from './services/register.service';
     BrowserModule,
     AppRoutingModule,
   ],
-  providers: [RegisterService],
+  providers: [
+    RegisterService,
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
