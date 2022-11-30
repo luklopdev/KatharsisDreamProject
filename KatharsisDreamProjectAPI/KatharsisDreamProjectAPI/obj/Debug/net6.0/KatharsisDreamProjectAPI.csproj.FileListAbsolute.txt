@@ -80,3 +80,7 @@ C:\Users\lukas\source\repos\KatharsisDreamProject\KatharsisDreamProjectAPI\Katha
 C:\Users\lukas\source\repos\KatharsisDreamProject\KatharsisDreamProjectAPI\KatharsisDreamProjectAPI\obj\Debug\net6.0\KatharsisDreamProjectAPI.pdb
 C:\Users\lukas\source\repos\KatharsisDreamProject\KatharsisDreamProjectAPI\KatharsisDreamProjectAPI\obj\Debug\net6.0\KatharsisDreamProjectAPI.genruntimeconfig.cache
 C:\Users\lukas\source\repos\KatharsisDreamProject\KatharsisDreamProjectAPI\KatharsisDreamProjectAPI\obj\Debug\net6.0\ref\KatharsisDreamProjectAPI.dll
+C:\Users\lukas\source\repos\KatharsisDreamProject\KatharsisDreamProjectAPI\KatharsisDreamProjectAPI\bin\Debug\net6.0\KatharsisDream.Repository.dll
+C:\Users\lukas\source\repos\KatharsisDreamProject\KatharsisDreamProjectAPI\KatharsisDreamProjectAPI\bin\Debug\net6.0\KatharsisDream.Service.dll
+C:\Users\lukas\source\repos\KatharsisDreamProject\KatharsisDreamProjectAPI\KatharsisDreamProjectAPI\bin\Debug\net6.0\KatharsisDream.Repository.pdb
+C:\Users\lukas\source\repos\KatharsisDreamProject\KatharsisDreamProjectAPI\KatharsisDreamProjectAPI\bin\Debug\net6.0\KatharsisDream.Service.pdb

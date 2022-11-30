@@ -1018,6 +1018,30 @@
             "rid": "win"
           }
         }
+      },
+      "KatharsisDream.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/KatharsisDream.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KatharsisDream.Repository.dll": {}
+        }
+      },
+      "KatharsisDream.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/KatharsisDream.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KatharsisDream.Service.dll": {}
+        }
       }
     }
   },
@@ -3488,10 +3512,22 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "KatharsisDream.Repository/1.0.0": {
+      "type": "project",
+      "path": "../KatharsisDream.Repository/KatharsisDream.Repository.csproj",
+      "msbuildProject": "../KatharsisDream.Repository/KatharsisDream.Repository.csproj"
+    },
+    "KatharsisDream.Service/1.0.0": {
+      "type": "project",
+      "path": "../KatharsisDream.Service/KatharsisDream.Service.csproj",
+      "msbuildProject": "../KatharsisDream.Service/KatharsisDream.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "KatharsisDream.Repository >= 1.0.0",
+      "KatharsisDream.Service >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.0",
@@ -3524,7 +3560,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\lukas\\source\\repos\\KatharsisDreamProject\\KatharsisDreamProjectAPI\\KatharsisDream.Repository\\KatharsisDream.Repository.csproj": {
+              "projectPath": "C:\\Users\\lukas\\source\\repos\\KatharsisDreamProject\\KatharsisDreamProjectAPI\\KatharsisDream.Repository\\KatharsisDream.Repository.csproj"
+            },
+            "C:\\Users\\lukas\\source\\repos\\KatharsisDreamProject\\KatharsisDreamProjectAPI\\KatharsisDream.Service\\KatharsisDream.Service.csproj": {
+              "projectPath": "C:\\Users\\lukas\\source\\repos\\KatharsisDreamProject\\KatharsisDreamProjectAPI\\KatharsisDream.Service\\KatharsisDream.Service.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
