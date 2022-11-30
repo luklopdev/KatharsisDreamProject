@@ -759,6 +759,9 @@
         }
       },
       "KatharsisDream.Service/1.0.0": {
+        "dependencies": {
+          "KatharsisDream.Repository": "1.0.0"
+        },
         "runtime": {
           "KatharsisDream.Service.dll": {}
         }

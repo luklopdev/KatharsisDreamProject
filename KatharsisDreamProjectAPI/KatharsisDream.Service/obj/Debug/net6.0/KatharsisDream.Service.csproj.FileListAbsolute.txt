@@ -10,3 +10,6 @@ C:\Users\lukas\source\repos\KatharsisDreamProject\KatharsisDreamProjectAPI\Katha
 C:\Users\lukas\source\repos\KatharsisDreamProject\KatharsisDreamProjectAPI\KatharsisDream.Service\obj\Debug\net6.0\refint\KatharsisDream.Service.dll
 C:\Users\lukas\source\repos\KatharsisDreamProject\KatharsisDreamProjectAPI\KatharsisDream.Service\obj\Debug\net6.0\KatharsisDream.Service.pdb
 C:\Users\lukas\source\repos\KatharsisDreamProject\KatharsisDreamProjectAPI\KatharsisDream.Service\obj\Debug\net6.0\ref\KatharsisDream.Service.dll
+C:\Users\lukas\source\repos\KatharsisDreamProject\KatharsisDreamProjectAPI\KatharsisDream.Service\bin\Debug\net6.0\KatharsisDream.Repository.dll
+C:\Users\lukas\source\repos\KatharsisDreamProject\KatharsisDreamProjectAPI\KatharsisDream.Service\bin\Debug\net6.0\KatharsisDream.Repository.pdb
+C:\Users\lukas\source\repos\KatharsisDreamProject\KatharsisDreamProjectAPI\KatharsisDream.Service\obj\Debug\net6.0\KatharsisDream.Service.csproj.CopyComplete

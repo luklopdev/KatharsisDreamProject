@@ -13,7 +13,7 @@ namespace KatharsisDream.Repository.Database.DatabaseContexts
     {
         private readonly IConfiguration Configuration;
 
-        DbSet<Account> Accounts { get; set; }
+        public DbSet<Account> Accounts { get; set; }
 
         public SqlServerDbContext(IConfiguration configuration)
         {

@@ -1036,6 +1036,9 @@
       "KatharsisDream.Service/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "KatharsisDream.Repository": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/KatharsisDream.Service.dll": {}
         },

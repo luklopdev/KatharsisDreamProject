@@ -91,7 +91,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\lukas\\source\\repos\\KatharsisDreamProject\\KatharsisDreamProjectAPI\\KatharsisDream.Repository\\KatharsisDream.Repository.csproj": {
+                "projectPath": "C:\\Users\\lukas\\source\\repos\\KatharsisDreamProject\\KatharsisDreamProjectAPI\\KatharsisDream.Repository\\KatharsisDream.Repository.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
