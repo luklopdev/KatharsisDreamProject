@@ -20,6 +20,7 @@ namespace KatharsisDreamProjectAPI.Controllers
         public async Task<ActionResult> RegisterAccount([FromBody] RegisterAccountDto registerAccountDto)
         {
             int accountId = await accountService.RegisterAccount(registerAccountDto);
+            throw new Exception();
             return Ok(accountId);
         }
     }
